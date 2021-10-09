@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color :crimson;
+    line-height: 1.8;
+    background-color:peachpuff;
+}
+#showcase {
+    background-image: url('Vẻ đẹp SG.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    justify-content: flex-start;
+    color:rgb(243, 7, 7);
+    font-size: 24px;
+}
+#showcase:hover {
+    background-image: url('Chợ Bến Thành.webp');
+    transition: 5s;
+    animation-duration: 3s;
+}
+.button {
+    font-size: 24px;
+    text-decoration:rgb(120, 253, 187);
+    color:slateblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background:snow;
+    margin-top: 20px;
+}
+.button:hover {
+    background:palegreen;
+    color:orangered;
+    transition: 1s;
+}
+#section-a {
+    padding: 20px;
+    background:lightsalmon;
+    color:maroon;
+}
+#section-b {
+    padding: 20px;
+    background:aquamarine;
+    color:darkblue;
+}
+#section-c {
+    display:flex;
+}
+.box-1 {
+    background:rgb(209, 146, 207);
+    color:rgb(94, 5, 133);
+}
+.box-2 {
+    background:rgb(221, 171, 121);
+    color:rgb(94, 44, 9);
+}
+.box-3 {
+    background:rgb(119, 209, 245);
+    color:mediumblue;
+}
